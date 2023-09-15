@@ -231,7 +231,12 @@ const Landing = () => {
       <div className="h-4 w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"></div>
       <div className="flex flex-row">
         <div className="px-4 py-2">
-          <span>ABC Code 1.1</span>
+               <h1
+  className="font-bold text-xxl bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 mb-2"
+  style={{ fontSize: '25px' }} // Note the use of single quotes and camelCase for fontSize
+>
+ABC Code <span className="text-sm text-gray-500">(Version 1.2)</span>
+</h1>
           {/* <LanguagesDropdown onSelectChange={onSelectChange} /> */}
         </div>
         <div className="px-4 py-2">
