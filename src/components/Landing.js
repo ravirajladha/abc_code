@@ -235,7 +235,7 @@ const Landing = () => {
   className="font-bold text-xxl bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 mb-2"
   style={{ fontSize: '25px' }} // Note the use of single quotes and camelCase for fontSize
 >
-ABC Code <span className="text-sm text-gray-500">(Version 1.2)</span>
+ABC Code-V1.2</span>
 </h1>
           {/* <LanguagesDropdown onSelectChange={onSelectChange} /> */}
         </div>
