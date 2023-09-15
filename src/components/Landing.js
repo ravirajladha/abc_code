@@ -231,10 +231,11 @@ const Landing = () => {
       <div className="h-4 w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"></div>
       <div className="flex flex-row">
         <div className="px-4 py-2">
-          <LanguagesDropdown onSelectChange={onSelectChange} />
+          <span>ABC Code 1.1</span>
+          {/* <LanguagesDropdown onSelectChange={onSelectChange} /> */}
         </div>
         <div className="px-4 py-2">
-          <ThemeDropdown handleThemeChange={handleThemeChange} theme={theme} />
+          {/* <ThemeDropdown handleThemeChange={handleThemeChange} theme={theme} /> */}
         </div>
       </div>
       <div className="flex flex-row space-x-4 items-start px-4 py-4">
