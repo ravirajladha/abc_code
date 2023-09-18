@@ -23,12 +23,7 @@ export const languageOptions = [
   //   label: "Basic (FBC 1.07.1)",
   //   value: "basic",
   // },
-  {
-    id: 75,
-    name: "C (Clang 7.0.1)",
-    label: "C (Clang 7.0.1)",
-    value: "c",
-  },
+
   // {
   //   id: 76,
   //   name: "C++ (Clang 7.0.1)",
@@ -155,7 +150,12 @@ export const languageOptions = [
     label: "Java (OpenJDK 13.0.1)",
     value: "java",
   },
-
+  {
+    id: 75,
+    name: "C (Clang 7.0.1)",
+    label: "C (Clang 7.0.1)",
+    value: "c",
+  },
   // {
   //   id: 78,
   //   name: "Kotlin (1.3.70)",
