@@ -185,7 +185,7 @@ const Landing = () => {
   }
   useEffect(() => {
     defineTheme("oceanic-next").then((_) =>
-      setTheme({ value: "oceanic-next", label: "Oceanic Next" })
+      setTheme({ value: "oceanic-next", label: "Dark" })
     );
   }, []);
 
@@ -226,21 +226,27 @@ const Landing = () => {
         pauseOnHover
       />
 
-    
+
 
       <div className="h-4 w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"></div>
       <div className="flex flex-row">
         <div className="px-4 py-2">
-               <h1
-  className="font-bold text-xxl bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 mb-2"
-  style={{ fontSize: '25px' }} // Note the use of single quotes and camelCase for fontSize
->
-ABC Code-V1.2</span>
-</h1>
-          {/* <LanguagesDropdown onSelectChange={onSelectChange} /> */}
+          <h1
+            className="font-bold text-xxl bg-clip-text text-transparent bg-gradient-to-r from-slate-900 to-slate-700 mb-2"
+            style={{ fontSize: '25px' }} // Note the use of single quotes and camelCase for fontSize
+          >
+            ABC Code <span className="text-sm text-gray-500">(Version 1.2)</span>
+          </h1>
+
+
         </div>
         <div className="px-4 py-2">
-          {/* <ThemeDropdown handleThemeChange={handleThemeChange} theme={theme} /> */}
+
+
+          <LanguagesDropdown onSelectChange={onSelectChange} />
+        </div>
+        <div className="px-4 py-2">
+          <ThemeDropdown handleThemeChange={handleThemeChange} theme={theme} />
         </div>
       </div>
       <div className="flex flex-row space-x-4 items-start px-4 py-4">
